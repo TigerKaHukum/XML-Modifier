@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Modifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Upload XML and Modify Fields</h1>
+    <div class="container">
+        <input type="file" id="xmlFile" accept=".xml">
+        <input type="text" id="typeInput" placeholder="Enter Type">
+        <input type="text" id="subtypeInput" placeholder="Enter Subtype">
+        <textarea id="tradingPartnersInput" placeholder="Enter Trading Partners, separated by commas"></textarea>
+        <button id="processBtn">Process and Download ZIP</button>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</body>
+</html>
